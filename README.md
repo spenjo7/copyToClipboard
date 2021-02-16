@@ -7,7 +7,9 @@ A simple Code Snippet to Copy from JavaScript to the Clipboard ( I use this all 
 ## Useage:
 ```javascript
 copyToClipboard( textString ) // Use as a function in an event listener
+
 createCopyButton( textString, buttonLabel, DOMtargetElement, { prepend, id, classList })
+
 new CopyButton( storedText, buttonLabel, DOMtargetElement, { prepend, id, classList })
 	.update(text) // externally updates the text to copy
 	.setSource(sourceDomElement) // designates a DOM Element to be the source of the copyable text;
