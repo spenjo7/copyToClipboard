@@ -14,5 +14,5 @@ new CopyButton( storedText, buttonLabel, DOMtargetElement, { prepend, id, classL
 		-- *Experimental* Either the element's innerText or value will be copied 
 ```
 ## Updated on 2021-02-15 
--- copyToClipboard Now includes include navigator.clipboard API's .writeText() method
--- Added the CopyButton class, which is similar to createCopyButton but it also has a .setSource()
+- copyToClipboard Now includes include navigator.clipboard API's .writeText() method
+- Added the CopyButton class, which is similar to createCopyButton but it also has a .setSource()
